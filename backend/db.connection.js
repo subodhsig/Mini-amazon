@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 
 const dbName = "mini-amazon";
-const dbUserName = "avocadoUser";
-const dbPassword = encodeURIComponent("Avocado@123");
-const dbHost = "school.b6qkdnb.mongodb.net";
-const dbOptions = "retryWrites=true&w=majority&appName=School";
+const dbUserName = "subodh";
+const dbPassword = encodeURIComponent("Subodh123");
+const dbHost = "cluster0.3qz14.mongodb.net";
+const dbOptions = "retryWrites=true&w=majority&appName=Cluster0";
 
 const connectDB = async () => {
   try {
@@ -16,7 +16,6 @@ const connectDB = async () => {
   } catch (error) {
     console.log("DB connection failed...");
     console.log(error.message);
-    process.exit(1);
   }
 };
 

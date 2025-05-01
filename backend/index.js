@@ -25,7 +25,7 @@ app.use(
 // connect database
 await connectDB();
 
-// TODO: rate limiting
+//TODO: rate limiting
 
 // register routes/controller
 app.use(userController);
